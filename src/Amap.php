@@ -1,19 +1,14 @@
 <?php
 namespace Pctco\Map;
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-use PHPMailer\PHPMailer\SMTP;
 use think\facade\Cache;
 class Amap{
     /**
-    * @name send
-    * @describe send email
-    * @param  string $to        接收人邮件地址
-    * @param  string $subject     邮件标题
-    * @param  string $contents  邮件内容 支持HTML格式
-    * @return Boolean
+    * @name LinkageData
+    * @describe 联动数据
+    * @param  string
+    * @return String
     **/
-    public static function send($options){
+    public static function LinkageData($options){
       set_time_limit(60);
       $find = Db::name('library_cn_provinces')
       ->where('up',0)
