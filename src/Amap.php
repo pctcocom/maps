@@ -1,5 +1,5 @@
 <?php
-namespace Pctco\Map;
+namespace Pctco\Maps;
 use think\facade\Cache;
 class Amap{
     /**

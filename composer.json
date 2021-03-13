@@ -1,5 +1,5 @@
 {
-    "name": "pctco/map",
+    "name": "pctco/maps",
     "type": "project",
     "keywords": ["BaiDu Map","Gaode Map","Google Map"],
     "homepage": "https://pctco.com",
@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Pctco\\Map\\": "src"
+            "Pctco\\Maps\\": "src"
         }
     },
     "minimum-stability": "dev"
